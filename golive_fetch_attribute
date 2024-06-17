@@ -24,8 +24,6 @@ def fetch_data_from_sql():
             connection.close()
 # Fetch Apwide GoLive attribute
 def fetch_apwide_golive_attribute(attribute_id):
-#url = f"
-http://your_apwide_golive_url/api/attributes/{attribute_id}"
     url = f"
 https://sdlc.telkomsel.co.id/secure/ApwideGolive.jspa#/environments?itemId=144&modal=environmentDetails"
     headers = {
